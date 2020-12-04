@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2018-05-31T19:05:12 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bbdd4b12-da03-473f-aae7-7c436acd5d75">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="aaa "/>
+	<queryString>
+		<![CDATA[SELECT lmsforpcjt.issuebook.id,
+	lmsforpcjt.issuebook.`SRegno`,
+	lmsforpcjt.issuebook.`SName`,
+	lmsforpcjt.issuebook.`SBatch`,
+	lmsforpcjt.issuebook.`SDepartment`,
+	lmsforpcjt.issuebook.`SEmail`,
+	lmsforpcjt.issuebook.`STelNo`,
+	lmsforpcjt.issuebook.`Issuedate`,
+	lmsforpcjt.issuebook.`Bpages`,
+	lmsforpcjt.issuebook.`BSection`,
+	lmsforpcjt.issuebook.`BEdition`,
+	lmsforpcjt.issuebook.`BPublisher`,
+	lmsforpcjt.issuebook.`BName`,
+	lmsforpcjt.issuebook.`Accno`
+FROM lmsforpcjt.issuebook]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SRegno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SBatch" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SDepartment" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SEmail" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="STelNo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Issuedate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Bpages" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BSection" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BEdition" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BPublisher" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Accno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="0" width="590" height="73" uuid="d41eac8b-b605-439b-9e06-1b0b6763b4b9"/>
+				<textElement textAlignment="Center">
+					<font size="37"/>
+				</textElement>
+				<text><![CDATA[Details of the Issue Book]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="59" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="70" height="30" uuid="759e1ccd-1c62-40d5-9881-cf84ce3ef9cf"/>
+				<text><![CDATA[SRegno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="0" width="61" height="30" uuid="e4fa9ff2-6b33-4a27-ba10-144dbdfc14f6"/>
+				<text><![CDATA[SName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="131" y="0" width="61" height="30" uuid="35c18e58-11b7-41a2-b4e8-53f0a9745540"/>
+				<text><![CDATA[SBatch]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="192" y="0" width="61" height="30" uuid="3f401199-f0eb-40c4-994f-b6e3fb4534db"/>
+				<text><![CDATA[SDepartment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="0" width="61" height="30" uuid="96e12005-6f46-4b3b-ab20-017a942e0f89"/>
+				<text><![CDATA[SEmail]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="0" width="61" height="30" uuid="d48a55e5-ba08-4f0f-be27-018d55b146eb"/>
+				<text><![CDATA[STelNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="375" y="0" width="61" height="30" uuid="7c084b38-6c42-4cb6-8698-b8fddcd90b25"/>
+				<text><![CDATA[Issuedate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="436" y="0" width="61" height="30" uuid="73377ffa-6191-42c1-b7f8-9875aa480358"/>
+				<text><![CDATA[Bpages]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="497" y="0" width="61" height="30" uuid="4722bb35-2534-4326-96bd-9c6a1ee5acd1"/>
+				<text><![CDATA[BSection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="558" y="0" width="61" height="30" uuid="da6afb25-735b-4912-91c7-e2dbf38749a1"/>
+				<text><![CDATA[BEdition]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="619" y="0" width="61" height="30" uuid="08c35a41-3e46-4a16-91b2-913c62b46add"/>
+				<text><![CDATA[BPublisher]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="680" y="0" width="61" height="30" uuid="622935f2-0735-40ef-82a1-0f1848a3408f"/>
+				<text><![CDATA[BName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="741" y="0" width="61" height="30" uuid="48dc313b-1b7f-481c-a0cd-1c407915e534"/>
+				<text><![CDATA[Accno]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="105" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="25" width="70" height="30" uuid="9928e1d6-e06c-4522-bd65-417385e5702b"/>
+				<textFieldExpression><![CDATA[$F{SRegno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="25" width="61" height="30" uuid="130bb3d9-5b3c-4701-aafa-bbf2c1020c9f"/>
+				<textFieldExpression><![CDATA[$F{SName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="25" width="61" height="30" uuid="2581b48d-0245-4342-a47a-5f605ccad9b3"/>
+				<textFieldExpression><![CDATA[$F{SBatch}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="192" y="25" width="61" height="30" uuid="4dbe38ed-84ae-42e1-8308-ffebadf0f6ff"/>
+				<textFieldExpression><![CDATA[$F{SDepartment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="25" width="61" height="30" uuid="957abaed-57ed-4adc-9e55-b615de8f6c9e"/>
+				<textFieldExpression><![CDATA[$F{SEmail}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="314" y="25" width="61" height="30" uuid="63db0e69-9e3b-49dc-9766-38db64ff5833"/>
+				<textFieldExpression><![CDATA[$F{STelNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="25" width="61" height="30" uuid="1eeeed1c-4fdc-4c77-a728-af24d500f71e"/>
+				<textFieldExpression><![CDATA[$F{Issuedate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="436" y="25" width="61" height="30" uuid="f3b9475d-c638-49a5-90c9-1df1fcab84fe"/>
+				<textFieldExpression><![CDATA[$F{Bpages}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="497" y="25" width="61" height="30" uuid="eefa0c3e-4637-4588-bcae-551a81ee73a6"/>
+				<textFieldExpression><![CDATA[$F{BSection}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="558" y="25" width="61" height="30" uuid="f80f5434-dc84-43ad-bba5-0e07e6730c48"/>
+				<textFieldExpression><![CDATA[$F{BEdition}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="619" y="25" width="61" height="30" uuid="4007bb9f-18f7-4831-a4a1-723fda8df30f"/>
+				<textFieldExpression><![CDATA[$F{BPublisher}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="680" y="25" width="61" height="30" uuid="76719836-b03f-4997-83a8-f1af1c4628ce"/>
+				<textFieldExpression><![CDATA[$F{BName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="741" y="25" width="61" height="30" uuid="7e16523c-d1c5-41d8-9f7b-f5994b5d1ec7"/>
+				<textFieldExpression><![CDATA[$F{Accno}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

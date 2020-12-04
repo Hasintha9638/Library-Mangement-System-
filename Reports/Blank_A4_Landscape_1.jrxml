@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2018-05-31T19:05:14 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape_1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4de9dafc-35fb-48c4-b33c-8699ef054267">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="aaa "/>
+	<queryString>
+		<![CDATA[SELECT lmsforpcjt.returnbook.`SRegno`,
+	lmsforpcjt.returnbook.`SName`,
+	lmsforpcjt.returnbook.`SBatch`,
+	lmsforpcjt.returnbook.`SDepartment`,
+	lmsforpcjt.returnbook.`SEmail`,
+	lmsforpcjt.returnbook.`STelNo`,
+	lmsforpcjt.returnbook.`Accno`,
+	lmsforpcjt.returnbook.`Returndate`,
+	lmsforpcjt.returnbook.`Issuedate`,
+	lmsforpcjt.returnbook.`Bpages`,
+	lmsforpcjt.returnbook.`BSection`,
+	lmsforpcjt.returnbook.`BPublisher`,
+	lmsforpcjt.returnbook.`BEdition`,
+	lmsforpcjt.returnbook.`BName`
+FROM lmsforpcjt.returnbook]]>
+	</queryString>
+	<field name="SRegno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SBatch" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SDepartment" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="SEmail" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="STelNo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Accno" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Returndate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Issuedate" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Bpages" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BSection" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BPublisher" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BEdition" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="BName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="10" width="630" height="44" backcolor="#DCF211" uuid="2877ea28-4fd1-4e55-ba74-35d9a5a535df"/>
+				<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+					<topPen lineStyle="Double" lineColor="#000000"/>
+					<leftPen lineStyle="Double" lineColor="#000000"/>
+					<bottomPen lineStyle="Double" lineColor="#000000"/>
+					<rightPen lineStyle="Double" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="25" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Return Book Details]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="61" height="30" uuid="b8954b32-25c9-4587-b666-32598a294d19"/>
+				<text><![CDATA[SRegno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="61" y="0" width="57" height="30" uuid="4ce1de08-e63f-4cc8-bd3b-493e87ad06d8"/>
+				<text><![CDATA[SName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="118" y="0" width="57" height="30" uuid="7ef6e24b-3e37-4ba2-adf0-56089c196e22"/>
+				<text><![CDATA[SBatch]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="0" width="57" height="30" uuid="1065a810-900d-4a1e-ab1d-be40b05dc692"/>
+				<text><![CDATA[SDepartment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="232" y="0" width="57" height="30" uuid="67b1019e-c565-4b69-a0c2-1488b0a2c5a0"/>
+				<text><![CDATA[SEmail]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="0" width="57" height="30" uuid="ddbe2d31-3925-4b98-afae-04adf9eda6d3"/>
+				<text><![CDATA[STelNo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="0" width="57" height="30" uuid="f006a446-4da5-4c1a-a984-abd90f49b42c"/>
+				<text><![CDATA[Accno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="403" y="0" width="57" height="30" uuid="2b87ef69-c043-4237-92d9-5481ec612afd"/>
+				<text><![CDATA[Returndate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="0" width="57" height="30" uuid="2ec32872-20fc-40e5-84a5-d5a0a3e84960"/>
+				<text><![CDATA[Issuedate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="517" y="0" width="57" height="30" uuid="b90e48d3-df25-4707-8ce0-55647087b4b8"/>
+				<text><![CDATA[Bpages]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="574" y="0" width="57" height="30" uuid="f97a8617-7dd2-4bed-9be4-d248f2aba7c5"/>
+				<text><![CDATA[BSection]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="631" y="0" width="57" height="30" uuid="c88bb991-ab8f-4798-8d94-37f74ec33c7e"/>
+				<text><![CDATA[BPublisher]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="688" y="0" width="57" height="30" uuid="1f185f67-b080-412b-b219-9425091b47a9"/>
+				<text><![CDATA[BEdition]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="745" y="0" width="57" height="30" uuid="bf83d4ae-0585-466c-b9a8-4a69708899a4"/>
+				<text><![CDATA[BName]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="81" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="15" width="61" height="30" uuid="5b73b2b9-65af-4ad3-81e1-010e23aae0a8"/>
+				<textFieldExpression><![CDATA[$F{SRegno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="61" y="15" width="57" height="30" uuid="c18114e6-3194-4a7d-8290-d8d998e0deb4"/>
+				<textFieldExpression><![CDATA[$F{SName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="118" y="15" width="57" height="30" uuid="599feea8-acdd-42a3-a832-c19af3cec787"/>
+				<textFieldExpression><![CDATA[$F{SBatch}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="175" y="15" width="57" height="30" uuid="6d59daee-28c6-4b8e-bdda-5567d41813b0"/>
+				<textFieldExpression><![CDATA[$F{SDepartment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="232" y="15" width="57" height="30" uuid="046e4ec0-e115-4247-ae2c-973ab703c3d8"/>
+				<textFieldExpression><![CDATA[$F{SEmail}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="289" y="15" width="57" height="30" uuid="5fa2ff5c-83fc-44fb-817c-3d5d757de030"/>
+				<textFieldExpression><![CDATA[$F{STelNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="346" y="15" width="57" height="30" uuid="ccc6c4ee-aa75-4453-b38b-45247004144a"/>
+				<textFieldExpression><![CDATA[$F{Accno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="403" y="15" width="57" height="30" uuid="148b4c9d-b92a-4884-a920-0d602819752a"/>
+				<textFieldExpression><![CDATA[$F{Returndate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="15" width="57" height="30" uuid="249f8531-b368-4700-9c9e-94d279e442d5"/>
+				<textFieldExpression><![CDATA[$F{Issuedate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="517" y="15" width="57" height="30" uuid="bfe0f6de-d4fd-43c2-8fa5-478baa599721"/>
+				<textFieldExpression><![CDATA[$F{Bpages}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="574" y="15" width="57" height="30" uuid="cd4b151e-aa12-4804-b131-eb652ab3d0f7"/>
+				<textFieldExpression><![CDATA[$F{BSection}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="631" y="15" width="57" height="30" uuid="ac4a4638-7fc6-4b8b-ab5b-26a72e1394aa"/>
+				<textFieldExpression><![CDATA[$F{BPublisher}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="688" y="15" width="57" height="30" uuid="c7d51f10-0b8e-4b9a-85ab-4d7a9923ad64"/>
+				<textFieldExpression><![CDATA[$F{BEdition}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="745" y="15" width="57" height="30" uuid="6f6cf682-24dd-456b-8657-52fc61b60125"/>
+				<textFieldExpression><![CDATA[$F{BName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+</jasperReport>
